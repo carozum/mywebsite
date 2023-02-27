@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-article.css">
+    <link rel="stylesheet" href="/icons/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- hearder - navigation -->
+    <header>
+        <a href="index.html" aria-label="logo">CaroZum</a>
+        <nav role="navigation">
+            <ul class="navbar">
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="learning.html">Learning path</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+        <h1 role="heading" aria-label="accessibility guidelines">Accessibility Guidelines</h1>
+    </section>
+
+
+    <main>
+
+        <!-- introduction -->
+        <section aria-label="introduction">
+            <p>Accessibility is about making web pages accessible to everyone, also people with disabilities. </p>
+            <blockquote>
+                Internet is for everyone but it won't be unless WE make it.
+                <cite>Vint Cerf</cite>
+            </blockquote>
+            <p>This article is my learning synthesis of awesome <a href="https://www.w3schools.com/accessibility"
+                    target="_blank">W3Schools
+                    course on Accessibility</a>. Do not hesitate to go and take this free open course !</p>
+        </section>
+
+        <!-- role, name and value -->
+        <section aria-label="role name and value">
+            <h2>Custom controls : Role Name and Value</h2>
+            <a href="https://www.w3.org/TR/wai-aria-1.1/#roles*categorization">Roles categorization</a>
+        </section>
+
+        <!-- color contrast -->
+        <section aria-label="color-contrast">
+            <h2>Color Contrast</h2>
+            <p>Color contrast is not only necessary for blind people but also for the rest of us : in a bright sunlight,
+                <b>contrast is essential</b> !
+            </p>
+            <div class="rule" aria-label="important rule">
+                <p>Use Sufficient contrast ratio : minimum 4.5 but
+                    preferred 7
+                    !</p>
+            </div>
+        </section>
+
+        <!-- color meaning -->
+        <section aria-label="color-meaning">
+            <h2>Color Meaning</h2>
+            <p>Not anyone perceive color the same way. 8% of males are affected by red-green-blue blindness.
+            </p>
+            <div class="rule" aria-label="important rule">
+                <p>Do not use colors as the only visual indicator of a meaning. For example, keep links underlined.</p>
+            </div>
+            <div class="row">
+                <div class="tips">
+                    <h3 aria-label="tips"><b>Tips :</b></h3>
+                    <ul>
+                        <li> If you want to improve readability of links, use the <b>css properties</b>
+                            <code>text-underline-offset</code>and <code>text-decoration-color</code>.
+                        </li>
+                        <li><b>Icons</b> and text could be a good way to communicate meaning in addition
+                            with colors. </li>
+                    </ul>
+                </div>
+
+                <div class="tools">
+                    <h3 aria-label="tools"><b>Tools :</b></h3>
+                    <ul>
+                        <li><a href="https://contrast-ratio.com/">Contrast Ratio</a></li>
+                        <li><a href="https://coolors.co/contrast-checker/ffffff-a2b9bc">Coolors contrast checker</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
