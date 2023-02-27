@@ -51,23 +51,31 @@ header a{
 
 section{
     padding: 2em 0;
+    
 }
 .section-title{
     text-align: center;
     padding: 1em 0 1.5em 0;
 }
+.width80{
+    width: 80%;
+    margin: auto;
+}
 .row{
     display: flex;
     flex-wrap: no-wrap;
-    width: 80%;
-    margin: auto;
 }
 .rowItem{
     padding: 1em;
     width: 50%;
 }
-
-/* About Me */
-.who{
+.bg-light{
     background-color: aliceblue;
+}
+
+/* footer */
+footer{
+    background-color: #0e5d67;
+    color: white;
+    padding: 1em;
 }
